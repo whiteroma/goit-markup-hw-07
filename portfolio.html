@@ -16,29 +16,29 @@
 
 <body>
   <header class="header-section">
-    <div class="container header-webstudio-logo">
-      <a href="./index.html" class="header-webstudio-link"><span class="logo-bluetext">Web</span><span
-          class="blacktext">Studio</span></a>
+    <div class="container header-logo">
+      <a href="./index.html" class="header-logo__link"><span class="header-logo__link--colored">Web</span>Studio</a>
       <nav class="header-nav">
-        <ul class="header-nav-ul">
-          <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Студия</a></li>
-          <li class="header-nav-item"><a class="header-bluetext" href="./portfolio.html">Портфолио</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="#">Контакты</a></li>
+        <ul class="header-nav__list">
+          <li class="header-nav__item"><a href="./index.html"
+              class="header-nav__link">Студия</a></li>
+          <li class="header-nav__item"><a class="header-nav__link header-nav__link--current" href="./portfolio.html">Портфолио</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Контакты</a></li>
         </ul>
       </nav>
       <ul class="header-contacts">
-        <li class="header-contacts-item">
-          <a class="header-contacts-link" href="mailto:info@devstudio.com">
-            <svg class="icon-envelope">
+        <li class="header-contacts__item">
+          <a class="header-contacts__link" href="mailto:info@devstudio.com">
+            <svg class="header-contacts__icon">
               <use href="./images/symbol-defs.svg#icon-envelope">
               </use>
             </svg>
             info@devstudio.com
           </a>
         </li>
-        <li class="header-contacts-item">
-          <a class="header-contacts-link" href="tel:+380961111111">
-            <svg class="icon-phone">
+        <li class="header-contacts__item">
+          <a class="header-contacts__link" href="tel:+380961111111">
+            <svg class="header-contacts__icon">
               <use href="./images/symbol-defs.svg#icon-phone">
               </use>
             </svg>
@@ -49,157 +49,159 @@
     </div>
   </header>
   <main class="main-section">
-    <section class="section portfolio-section">
+    <section class="section portfolio">
       <div class="container">
-        <ul class="portfolio-buttons-list">
-          <li class="portfolio-buttons-item"><button class="portfolio-button-blue" type="button">Все</button></li>
-          <li class="portfolio-buttons-item"><button class="portfolio-buttons" type="button">Веб-сайты</button></li>
-          <li class="portfolio-buttons-item"><button class="portfolio-buttons" type="button">Приложения</button></li>
-          <li class="portfolio-buttons-item"><button class="portfolio-buttons" type="button">Дизайн</button></li>
-          <li class="portfolio-buttons-item"><button class="portfolio-buttons" type="button">Маркетинг</button></li>
+        <ul class="portfolio__list">
+          <li class="portfolio__item"><button class="portfolio__button portfolio__button--current"
+              type="button">Все</button></li>
+          <li class="portfolio__item"><button class="portfolio__button" type="button">Веб-сайты</button></li>
+          <li class="portfolio__item"><button class="portfolio__button" type="button">Приложения</button></li>
+          <li class="portfolio__item"><button class="portfolio__button" type="button">Дизайн</button></li>
+          <li class="portfolio__item"><button class="portfolio__button" type="button">Маркетинг</button></li>
         </ul>
-        <ul class="portfolio-list">
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb">
-                <img class="portfolio-img" width="370" src="./images/Технокряк.jpg" alt="Технокряк">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+        <ul class="grid">
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Технокряк.jpg" alt="Технокряк">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Технокряк</h3>
-                <p class="portfolio-list-text">Веб-сайт</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Технокряк</h3>
+                <p class="grid__text">Веб-сайт</p>
               </div>
 
             </a>
           </li>
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb">
-                <img width="370" src="./images/Постер.jpg" alt="Постер">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Постер.jpg" alt="Постер">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Постер New Orlean vs Golden Star</h3>
-                <p class="portfolio-list-text">Дизайн</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Постер New Orlean vs Golden Star</h3>
+                <p class="grid__text">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb"> <img width="370" src="./images/Ресторан.jpg" alt="Ресторан">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Ресторан.jpg" alt="Ресторан">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Ресторан Seafood</h3>
-                <p class="portfolio-list-text">Приложение</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Ресторан Seafood</h3>
+                <p class="grid__text">Приложение</p>
               </div>
             </a>
           </li>
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb">
-                <img width="370" src="./images/Наушники.jpg" alt="Наушники">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Наушники.jpg" alt="Наушники">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Проект Prime</h3>
-                <p class="portfolio-list-text">Маркетинг</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Проект Prime</h3>
+                <p class="grid__text">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb">
-                <img width="370" src="./images/Коробки.jpg" alt="Коробки">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Коробки.jpg" alt="Коробки">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Проект Boxes</h3>
-                <p class="portfolio-list-text">Приложение</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Проект Boxes</h3>
+                <p class="grid__text">Приложение</p>
               </div>
             </a>
           </li>
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb">
-                <img width="370" src="./images/Монитор.jpg" alt="Монитор">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Монитор.jpg" alt="Монитор">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Inspiration has no Borders</h3>
-                <p class="portfolio-list-text">Веб-сайт</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Inspiration has no Borders</h3>
+                <p class="grid__text">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb">
-                <img width="370" src="./images/Издание.jpg" alt="Издание">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Издание.jpg" alt="Издание">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Издание Limited Edition</h3>
-                <p class="portfolio-list-text">Дизайн</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Издание Limited Edition</h3>
+                <p class="grid__text">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb">
-                <img width="370" src="./images/Лаб.jpg" alt="Лаб">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Лаб.jpg" alt="Лаб">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Проект LAB</h3>
-                <p class="portfolio-list-text">Маркетинг</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Проект LAB</h3>
+                <p class="grid__text">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="portfolio-list-item">
-            <a class="portfolio-list-item-link" href="#">
-              <div class="portfolio-thumb">
-                <img width="370" src="./images/Growing.jpg" alt="Growing">
-                <div class="portfolio-list-hover">
-                  <p class="portfolio-list-hover-text">Ресурс предлагает комплексные предложения с разным уровнем
+          <li class="grid__item">
+            <a class="grid__link" href="#">
+              <div class="grid__hiddenblock">
+                <img class="grid__img" width="370" src="./images/Growing.jpg" alt="Growing">
+                <div class="grid__overflow">
+                  <p class="grid__description">Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или
                     частном лице.</p>
                 </div>
               </div>
-              <div class="portfolio-list-text-div">
-                <h3 class="portfolio-list-title">Growing Business</h3>
-                <p class="portfolio-list-text">Приложение</p>
+              <div class="grid__textblock">
+                <h3 class="grid__title">Growing Business</h3>
+                <p class="grid__text">Приложение</p>
               </div>
             </a>
           </li>
@@ -209,69 +211,71 @@
   </main>
   <footer class="footer-section">
     <div class="container footer-container">
-      <div class="footer-webstudio-logo-div">
-        <a href="./index.html" class="footer-webstudio-link"><span class="footer-bluetext">Web</span><span
-            class="footer-whitetext">Studio</span></a>
+      <div class="footer-logo">
+        <a href="./index.html" class="footer-logo__link"><span
+            class="footer-logo__link footer-logo__link--colored">Web</span>Studio
+        </a>
         <address class="footer-address">
-          <ul class="footer-contacts-list">
-            <li class="footer-contacts-item">
-              <a class="footer-map" target="_blank" rel="noopener noreferrer"
+          <ul class="footer-address__list">
+            <li class="footer-address__item">
+              <a class="footer-address__link footer-address__link--nohover" target="_blank" rel="noopener noreferrer"
                 href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwjets2E19n2AhUVuosKHc_YD5UQ8gF6BAgVEAE">г.
                 Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li class="footer-contacts-item"><a class="footer-contacts-link"
+            <li class="footer-address__item"><a class="footer-address__link"
                 href="mailto:info@example.com">info@example.com</a></li>
-            <li class="footer-contacts-item"><a class="footer-contacts-link" href="tel:+380991111111">+38 099 111 11 11
+            <li class="footer-address__item"><a class="footer-address__link" href="tel:+380991111111">+38 099 111 11 11
               </a>
             </li>
           </ul>
         </address>
       </div>
-      <div class="footer-icon-div">
-        <h3 class="footer-icon-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
-        <ul class="footer-icon-list">
-          <li class="footer-icon-item">
-            <a class="footer-icon-link" href="#">
-              <svg height="20px" width="20px" class="footer-icon-instagram">
+      <div class="footer-icons">
+        <h3 class="footer-icons__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+        <ul class="footer-icons__list">
+          <li class="footer-icons__item">
+            <a class="footer-icons__link" href="#">
+              <svg height="20px" width="20px" class="footer-icons__image">
                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-icon-item">
-            <a class="footer-icon-link" href="#">
-              <svg height="20px" width="20px" class="footer-icon-twitter">
+          <li class="footer-icons__item">
+            <a class="footer-icons__link" href="#">
+              <svg height="20px" width="20px" class="footer-icons__image">
                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-icon-item">
-            <a class="footer-icon-link" href="#">
-              <svg height="20px" width="20px" class="footer-icon-facebook">
+          <li class="footer-icons__item">
+            <a class="footer-icons__link" href="#">
+              <svg height="20px" width="20px" class="footer-icons__image">
                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-icon-item">
-            <a class="footer-icon-link" href="#">
-              <svg height="20px" width="20px" class="footer-icon-linkedin">
+          <li class="footer-icons__item">
+            <a class="footer-icons__link" href="#">
+              <svg height="20px" width="20px" class="footer-icons__image">
                 <use href="./images/symbol-defs.svg#icon-linkedin"></use>
               </svg>
             </a>
           </li>
         </ul>
       </div>
-      <div class="footer-form-div">
-        <h3 class="footer-form-title">
+      <div class="footer-form">
+        <h3 class="footer-form__title">
           ПОДПИШИТЕСЬ НА РАССЫЛКУ
         </h3>
-        <form class="footer-form">
-          <input class="footer-form-input" type="email" name="subscribe" id="subscribe" placeholder="E-mail">
-          <button class="footer-form-button" type="submit">
+        <form class="footer-form-block">
+          <input class="footer-form-block__area" type="email" name="subscribe" placeholder="E-mail">
+          <button class="footer-form-block__button" type="submit">
             Подписаться
-            <svg width="24px" height="24px" class="footer-form-icon">
+            <svg width="24px" height="24px" class="footer-form-block__icon">
               <use href="./images/symbol-defs.svg#icon-subscribe"></use>
             </svg>
           </button>
+
         </form>
       </div>
     </div>
