@@ -312,14 +312,14 @@ address {
 /* --- HEADER --- */
 
 
-.header-logo {
+.header-section__container {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 
-.header-logo__link {
+.header-logo {
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -333,7 +333,7 @@ address {
     align-items: center;
 }
 
-.header-logo__link--colored {
+.header-logo--colored {
     color: #2196F3;
     text-align: center;
     display: block;
