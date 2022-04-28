@@ -113,21 +113,6 @@ address {
     padding-bottom: 94px;
 }
 
-.hero {
-    margin: 0 auto;
-    max-width: 1600px;
-    min-height: 600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #2F303A;
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/BgImg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-}
-
 
 /* --- Footer --- */
 
@@ -320,7 +305,6 @@ address {
 
 
 .header-logo {
-    font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.19;
@@ -333,7 +317,7 @@ address {
     align-items: center;
 }
 
-.header-logo--colored {
+.header-logo__span {
     color: #2196F3;
     text-align: center;
     display: block;
@@ -472,6 +456,22 @@ address {
 /* --- MAIN PAGE --- */
 
 /* -Hero- */
+
+.hero {
+    margin: 0 auto;
+    max-width: 1600px;
+    min-height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2F303A;
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/BgImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
 
 .button-section__button {
     font-size: 16px;
@@ -646,6 +646,8 @@ address {
     padding-bottom: 30px;
 }
 
+/* -Social- */
+
 
 .social-icons {
     display: flex;
@@ -729,7 +731,7 @@ address {
     fill: currentColor;
 }
 
-/* - */
+/* --- PORTFOLIO --- */
 
 .portfolio {
     padding-bottom: 94px;
@@ -797,6 +799,10 @@ address {
     border-color: transparent;
 
 }
+
+
+/* --- PORTFOLIO GRID --- */
+
 
 .grid {
     display: flex;
